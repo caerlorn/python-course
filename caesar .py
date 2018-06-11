@@ -2,10 +2,6 @@
 
 import sys, string
 
-# Yildirim Can Sehirlioglu - 156336IVCM - Hmw1
-# Written and tested with python 2.7 because I am already using it for another course and did not want to risk
-# the PATHs and libraries by installing Python 3
-
 
 def caesar(plaintextfile, ciphertextfile, shiftkey):
     lower_alpha = string.ascii_lowercase
