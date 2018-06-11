@@ -3,9 +3,6 @@ import tkFileDialog
 import tkMessageBox
 from ScrolledText import *
 
-# Yildirim Can Sehirlioglu - 156336IVCM - Hmw3
-# https://www.tcl.tk/man/iwidgets3.0/scrolledtext.n.html was really helpful for documentation
-# Written and tested in Python 2.7 like before, the imports won't likely work in 3+ as they are now.
 
 motherContainer = tiki.Tk(className=" Poor man's notepad")
 motherContainer.minsize(width=300,height=200)
