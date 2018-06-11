@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 
-# Yildirim Can Sehirlioglu - 156336IVCM - Hmw2
-
-# So, what I understood from the homework description was that we were asked to use singleton (anti)pattern.
-# Although after some research I saw that it is wildly different in Python than in Java or C++.
-# As a personal note, I liked the Borg (anti)pattern more as a monostate for Python class instances instead of a
-# singleton.
-
-
 def singleton(obj):
     cl = obj.__class__
     if hasattr(cl, '__instantiated'):
