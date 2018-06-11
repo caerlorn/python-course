@@ -6,8 +6,6 @@ import random
 import Tkinter as tiki
 from ScrolledText import *
 
-# Yildirim Can Sehirlioglu - 156336IVCM - Hmw4
-# put together and tested with 2.7 on Windows
 
 ENCODING = 'utf-8'
 HOST = '127.0.0.1'
